@@ -4,6 +4,7 @@ SoftDev
 Random Selection of Devos
 2024-09-13
 time spend: """
+import random
 
 krewes = {
        	4: [
@@ -21,8 +22,15 @@ krewes = {
      	}
 
 def randDevo():
-	pd = randint(4,5)
+	pd = random.randint(4,5)
+	List = krewes[pd]
+	devo = random.randint(0, len(List)-1)
+	return List[devo]
+
+print(randDevo())
     
+
+
 
 
 
