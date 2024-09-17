@@ -1,3 +1,8 @@
+'''Team Name: CAD
+Name: Caden Khuu
+pd5
+'''
+
 def string_times(str, n):
   final = ""
   for i in range(n):
