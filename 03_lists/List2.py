@@ -1,3 +1,8 @@
+'''Team Name: CAD
+Name: Caden Khuu
+pd5
+'''
+
 '''Return the number of even ints in the given array. Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
 
 count_evens([2, 1, 2, 3, 4]) → 3
