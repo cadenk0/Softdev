@@ -6,6 +6,7 @@ def first_last6(nums):
     
   return False
 
+print(first_last6([1, 2, 3, 4, 5, 6]))
 
 def same_first_last(nums):
   if len(nums) >= 1:
