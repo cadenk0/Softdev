@@ -10,5 +10,4 @@ NOTA BENE:
    jotting down or verbalizing
      to your neighbourhood Devos+Duckies your prediction
        --- BEFORE you run your test.
-
-Instead of running the html script, it instead downloads the file onto your computer.
+     
