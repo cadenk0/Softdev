@@ -9,7 +9,7 @@ We thought it will cause an error because the function requires render_template,
 Q1:
 Yes, it will be at http://127.0.0.1:5000/my_foist_template
 Q2:
-<your response here>
+It will probbaly try to find the HTML file that is in the folder with the render template
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
 
