@@ -1,9 +1,9 @@
 # Yinwei Zhang, Aditya Anand, Caden Khuu
-# 
+# CAY
 # SoftDev
-# K13 <Occupations table format>
+# K13 <Occupations table format with links>
 # 2024-9-30
-# Time Spent : 1 Hour
+# Time Spent : 1.2 Hour
 
 import random
 import csv
@@ -31,17 +31,17 @@ def sel(d):
 @app.route("/")
 
 def page():
-    occ = sel(readfile("occupations.csv"))
+    occ = sel(readfile("data/occupations.csv"))
     code = """
     <!DOCTYPE html>
     <html>
       <body>
-            <p>Smelly Lobotomy: Caden Khuu, Yinwei Zhang, Aditya Anand</p>
+            <p>CAY with Caden, Yinwei, Aditya.</p>
             <h1>This time: """ + occ + """
             </h1><h2>Occupations</h2>
     """
-    for a, b in readfile("occupations.csv").items():
-        code += "<li>" + a + ": " + str(b) + "</li>"
+    for a, b, c in readfile("data/occupations.csv").items():
+        code += "<li>" + a + ": " + str(b) + ", Link: " + str(c) + "</li>"
 
     code += "</body></html>"
     return code
