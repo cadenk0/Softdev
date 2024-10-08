@@ -1,28 +1,19 @@
-< your heading here >
+Caden Khuu
+CAD - Caden Khuu, Aditya Anand, Danny Huang
+SoftDev
+2024-10-07
+K14 - Requests on a client server
+Time Spent: 0.5 hr
 
 DISCO:
-* 
-* 
-* 
+* There is a text box to input a username and the page saying "hah hooh HAAH" appears no matter what text is inputted.
+* There is a KeyError if there is no username.
 -----------------------------------------------------------------------
-
 
 Q/C/C:
-* 
-* 
-* 
+* How would you return different results depending on what username you write?
+* Could you store user data to be accessed later (e.g. for a login page)?
 -----------------------------------------------------------------------
-
 
 OTHER?
-* 
-* 
-* 
 -----------------------------------------------------------------------
-
-
-
-
-
-
-
