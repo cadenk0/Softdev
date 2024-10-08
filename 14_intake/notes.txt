@@ -8,6 +8,8 @@ Time Spent: 0.5 hr
 DISCO:
 * There is a text box to input a username and the page saying "hah hooh HAAH" appears no matter what text is inputted.
 * There is a KeyError if there is no username.
+* If you run just testmod0.py in the terminal, it just prints the text in the file.
+* testmod0 is being imported as a package in app.py
 -----------------------------------------------------------------------
 
 Q/C/C:
