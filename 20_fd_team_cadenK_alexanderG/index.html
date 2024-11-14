@@ -45,6 +45,24 @@
 
 </div>
 
+<button class="submit success button">Save</button>
+<button type="button" class="alert button">Delete</button>
+
+      <h2>Tooltip</h2>
+      <p>
+        Hover over this
+        <span data-tooltip data-position="top" class="has-tip" title="Foundation Tooltip">text</span>
+        to see a tooltip.
+      </p>
+
+      <h2>Modal</h2>
+      <button class="button" data-open="exampleModal1">Open Modal</button>
+      <div class="reveal" id="exampleModal1" data-reveal>
+         <h1>Modal</h1>
+         <p>Pop up screen made with Foundation.</p>
+         <button class="close-button" data-close aria-label="Close modal">&times;</button>
+      </div>
+
       <script>
          $(document).ready(function() {
             $(document).foundation();
