@@ -1,16 +1,16 @@
-import requests
+import urllib.request, json
+from flask import Flask, render_template
 
-url = "https://api.nasa.gov/planetary/apod"
-f = open("key_nasa.txt", "r")
-api_key = f.read()
+app = Flask(__name__)
+@app.route('/', methods=['GET', 'POST'])
+def home():
+    key = 'https://api.nasa.gov/planetary/apod?api_key=dHGlhfwLl19MBXsLbGiguQeg30P7X7LJdOlEr4N7'
+    data = urllib.request.urlopen(key) 
+    dictionary = json.loads(data.read())
+    hdurl = dictionary.get('hdurl')
+    description = dictionary.get('explanation') 
+    return render_template('main.html', photo=hdurl, description=description)
 
-params = {
-    "api_key": api_key
-}
-
-response = requests.get(url, params=params)
-
-data = response.json()
-print("Title:", data['title'])
-print("Explanation:", data['explanation'])
-print("Image URL:", data['url'])
+if __name__ == "__main__":
+    app.debug = True 
+    app.run()
