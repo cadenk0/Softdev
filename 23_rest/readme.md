@@ -5,6 +5,7 @@ K23 -- using the NASA API
 time spent: 0.25
 
 DISCO: 
+-urllib.request opens and reads URLs.
 
 QCC:
 -Is the way the NASA API is loaded in a Flask app the same as every other API?
